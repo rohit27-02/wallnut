@@ -60,8 +60,21 @@ export default function Home() {
           <p className='text-[4.85vw] flex flex-col pr-[3.9vw] mr-[3.9vw] border-r-[0.15vw] border-[#a58838] font-bold'><span className='text-[#a58838] text-[1.875vw]'>LATEST</span>PROJECTS</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quam nisi, sollicitudin venenatis nisl id, iaculis pharetra quam. Vivamus cursus est vel sagittis tristique. Nunc vel ligula mollis, imperdiet dolor quis, consectetur magna. Duis facilisis tempor lectus tempus dignissim. Praesent lacus ante, mattis sit amet purus non, suscipit pellentesque odio.</p>
         </div>
-        <div></div>
-        <div></div>
+        <div className='w-[100vw] h-[100vh] flex flex-wrap'>
+          <img className='w-[24.67vw] h-[39.75vh]' src='1.jpg' alt="project" />
+          <img className='w-[24.67vw] h-[39.75vh]' src='1.jpg' alt="project" />
+          <img className='w-[24.67vw] h-[39.75vh]' src='1.jpg' alt="project" />
+          <img className='w-[24.67vw] h-[79.5vh]' src='1.jpg' alt="project" />
+          <img className='w-[49.5vw] h-[39.75vh] -mt-[19.1vw]' src='1.jpg' alt="project" />
+          <img className='w-[24.67vw] h-[39.75vh] -mt-[19.1vw]' src='1.jpg' alt="project" />
+          <img className='w-[24.67vw] h-[39.75vh]' src='1.jpg' alt="project" />
+          <img className='w-[24.67vw] h-[39.75vh] -mt-[19.1vw]' src='1.jpg' alt="project" />
+          <img className='w-[49.5vw] h-[39.75vh] -mt-[19.1vw]' src='1.jpg' alt="project" />
+        </div>
+        <div className='flex py-[3.125vw] px-[5vw] items-center mt-[10vw] text-[#363f48]'>
+          <p className='text-[4.85vw] flex flex-col pr-[3.9vw] mr-[3.9vw] border-r-[0.15vw] border-[#a58838] font-bold'><span className='text-[#a58838] text-[1.875vw]'>OUR</span>TEAM</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quam nisi, sollicitudin venenatis nisl id, iaculis pharetra quam. Vivamus cursus est vel sagittis tristique. Nunc vel ligula mollis, imperdiet dolor quis, consectetur magna. Duis facilisis tempor lectus tempus dignissim. Praesent lacus ante, mattis sit amet purus non, suscipit pellentesque odio.</p>
+        </div>
         <div></div>
       </div>
     </div>
