@@ -11,7 +11,7 @@ const HomeCarousel = () => {
   const [carouselnumber, setcarouselnumber] = useState(-1);
 
   useEffect(() => {
-    Splitting()
+ 
 
   }, []);
 
@@ -43,11 +43,6 @@ const HomeCarousel = () => {
 
   return (
     <div className=''>
-      <Head>
-        <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" />
-        <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" />
-        <script async src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
-      </Head>
       <div className='bg-black absolute top-0 w-full h-[115.4vh] z-10 opacity-50'></div>
       <div className='absolute font-bold top-[20vw] w-full z-10 flex justify-center flex-col items-center'>
         <div ref={p1} className='text-[2.8125vw] animate__animated'>INTERIOR</div>
