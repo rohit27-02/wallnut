@@ -136,14 +136,14 @@ export default function Home() {
           </div>
           <div className='w-1/2 h-full overflow-hidden'><img className='w-full h-full' src='/banner3.jpg' alt="testimonial" /></div>
         </div>
-        <div className='flex '>
-          <div>
-            <img src='' alt='testimonial2' />
-            <span>Phasellus</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut scelerisque purus. Donec placerat tempor ullamcorper.
+        <div className='flex bg-[#ecedf2] text-[#363f48]'>
+          <div className='w-1/2 h-[32.1vw] flex text-center items-center overflow-hidden'>
+            <img className='w-1/2 h-full' src='/testimonial1.jpg' alt='testimonial2' />
+            <span><i className='text-[3.75vw]'>Phasellus</i><br></br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut scelerisque purus. Donec placerat tempor ullamcorper.</span>
           </div>
-          <div>
-            <img src='' alt='testimonial2' />
-            <span>Vestibulum</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut scelerisque purus. Donec placerat tempor ullamcorper.
+          <div className='w-1/2 h-[32.1vw] flex text-center items-center overflow-hidden'>
+            <img className='w-1/2' src='/testimonial2.jpg' alt='testimonial2' />
+            <span><i className='text-[3.75vw]'>Vestibulum</i><br></br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut scelerisque purus. Donec placerat tempor ullamcorper.</span>
           </div>
         </div>
       </div>
