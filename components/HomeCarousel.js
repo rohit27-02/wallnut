@@ -41,6 +41,7 @@ const HomeCarousel = () => {
   const p3 = useRef();
   const b1 = useRef();
 
+
   return (
     <div className=''>
       <div className='bg-black absolute top-0 w-full h-[115.4vh] z-10 opacity-50'></div>
@@ -60,7 +61,7 @@ const HomeCarousel = () => {
         onChange={(e) => { setcarouselnumber(e) }}
       >
 
-        <div id='slice'>
+        <div id='slice image'>
           <img alt='home-pic' src="/1.jpg" />
 
         </div>
