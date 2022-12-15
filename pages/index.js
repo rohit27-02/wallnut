@@ -19,7 +19,7 @@ export default function Home() {
         <div className='flex drop-shadow-xl text-center flex-col justify-center items-center bg-[#363f48] hover:bg-[#a58838] transition-all duration-300 cursor-pointer shadow-inner h-[10.25vw] p-[1.175vw] rounded-md w-[9.765vw]'><img className='w-[5vw]' src='icon.png' alt='home-icon' />Interior Furniture</div>
       </div>
 
-      <div className="w-full  flex flex-col md:flex-row px-[5vw] mt-[10vw] mb-[5.75vw] text-gray-500 ">
+      <div className="w-full  flex flex-col md:flex-row px-[5vw] pt-[10vw] pb-[5.75vw] bg-[#ecedf2] text-gray-500 ">
         <div className='pr-[2vw]'>
           <div className='text-[4.85vw]  leading-[5vw] font-bold text-[#363f48]'>
             <span className='text-[#a58838] text-[1.875vw]'>WELCOME TO </span><br></br>
