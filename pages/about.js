@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
-import Banner from '../components/banner'
+import Banner from '../components/Banner'
 
 const about = () => {
   return (
