@@ -3,7 +3,6 @@
 import React from 'react'
 
 const Banner = ({title}) => {
-  console.log(title)
   return (
     <div className=' absolute top-0 w-full h-[60vh] overflow-hidden'>
       <div className='h-[60vh] absolute top-0  w-full bg-black opacity-60'></div> 
