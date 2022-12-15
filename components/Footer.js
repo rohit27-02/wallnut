@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
-import {FaFacebookF,FaTwitter,FaGoogle,FaLinkedinIn,FaYoutube} from 'react-icons/fa'
+import {FaFacebookF,FaPhone,FaTwitter,FaGoogle,FaLinkedinIn,FaYoutube} from 'react-icons/fa'
+import {MdLocationOn,MdEmail} from "react-icons/md"
 const Footer = () => {
   return (<div className='flex flex-col bg-[#191717]  h-[70vh] justify-evenly text-gray-400'>
     <div className='   w-full flex px-[4vw] '>
@@ -24,13 +25,22 @@ const Footer = () => {
           <li className='hover:text-[#a58838] cursor-pointer'>Contact us</li>
         </div>
       </div>
-      <div className='flex w-[25vw] px-[2vw] flex-col'>
-        <h1 className='text-[1.875vw] text-white'>Contact Info</h1>
-        <div>
-
+      <div className='flex w-[30vw] px-[2vw] flex-col'>
+        <h1 className='text-[1.875vw] mb-[4vw] text-white'>Contact Info</h1>
+        <div className='flex '>
+          <MdLocationOn className='text-[1.6vw] absolute -mx-[2.2vw] mt-[0.2vw]'/>
+          <p>1305 Chandak Chambers, WEH metro station, Andheri Kurla road, Andheri East, Mumbai 400069</p>
+        </div>
+        <div className='flex mt-[1.2vw]'>
+          <FaPhone className='text-[1.6vw] absolute -mx-[2.2vw] mt-[0.2vw]'/>
+          <p>00000000</p>
+        </div>
+        <div className='flex mt-[1.2vw]'>
+          <MdEmail className='text-[1.6vw] absolute -mx-[2.2vw] mt-[0.2vw]'/>
+          <p>manan@wallnut.info</p>
         </div>
       </div>
-      <div className='flex w-[30vw] px-[2vw] flex-col'>
+      <div className='flex w-[20vw] px-[2vw] flex-col'>
         <h1 className='text-[1.875vw] text-white'>Instagram</h1>
         <div>
 

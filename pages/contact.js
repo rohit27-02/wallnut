@@ -1,6 +1,7 @@
 import React from 'react'
 import Banner from '../components/Banner'
-
+import {FaMap,FaPhoneVolume} from "react-icons/fa"
+import {HiMailOpen} from "react-icons/hi"
 const contact = () => {
   return (
     <div>
@@ -43,15 +44,26 @@ const contact = () => {
         </div>
       </section>
 
-      <div className=''>
-        <div className='flex justify-center items-center flex-col'>
-          <h1></h1>
+      <div className='flex w-full text-[1.25vw] mb-[6vw] text-[#333333] px-[3vw] justify-center'>
+        <div className='flex drop-shadow-md w-[38vw] bg-[#f7f7f7] p-[3.2vw] mx-[1vw] text-center justify-center items-center flex-col'>
+        <FaMap className='text-[#a58838] text-[4vw]'/>
+          <h1 className='font-bold text-[1.5vw] my-[1vw]'>Visit our office</h1>
+          <p>1305
+Chandak Chambers,
+WEH metro station,
+Andheri Kurla road,
+Andheri East, 
+Mumbai 400069</p>
         </div>
-        <div className='flex justify-center items-center flex-col'>
-          <h1></h1>
+        <div className='flex drop-shadow-md w-[38vw] bg-[#f7f7f7] p-[3.2vw] text-[1.5vw] mx-[1vw] text-center justify-center items-center flex-col'>
+          <HiMailOpen className='text-[#a58838] text-[4vw]'/>
+          <h1 className='font-bold text-[1.5vw] my-[1vw]'>Mail us</h1>
+          <a >manan@wallnut.info</a>
         </div>
-        <div className='flex justify-center items-center flex-col'>
-          <h1></h1>
+        <div className='flex drop-shadow-md w-[38vw] bg-[#f7f7f7] p-[3.2vw] text-[1.5vw] mx-[1vw] text-center justify-center items-center flex-col'>
+          <FaPhoneVolume className='text-[#a58838] text-[4vw]'/>
+          <h1 className='font-bold text-[1.5vw] my-[1vw]'>Call us</h1>
+          <p></p>
         </div>
       </div>
     </div>
