@@ -31,12 +31,13 @@ const Navbar = () => {
         </div>
       }
       {
-        isOpen && <div className='fixed left-0 top-0 h-full w-[60vw] transition-all duration-300  z-50 bg-white'>
-          <div className='flex flex-col text-[2vh] justify-center items-center py-[5vh] font-semibold gap-[3vh] text-[#333333]'>
-          <div className='cursor-pointer hover:text-[#a58838] transition-all duration-300' onClick={() => Router.push("/")}>Home</div>
-            <div className='cursor-pointer hover:text-[#a58838] transition-all duration-300' onClick={() => Router.push("/about")}>About Us</div>
-            <div className='cursor-pointer hover:text-[#a58838] transition-all duration-300' onClick={() => Router.push("/services")}>Services</div>
-            <div className='cursor-pointer hover:text-[#a58838] transition-all duration-300' onClick={() => Router.push("/contact")}>Contact Us</div>
+        isOpen && <div className='fixed left-0 top-0 shadow-xl h-full w-[60vw] transition-all duration-300  z-50 bg-white'>
+          <div className='flex flex-col text-[2.2vh] justify-center items-center py-[2vh] font-semibold gap-[2vh] text-[#333333]'>
+          <div className=''><img alt='logo' className='h-[6vh]' src='/logo.png' /> </div>
+            <div className='cursor-pointer border-b-2 p-[1vh] hover:text-[#a58838] transition-all duration-300' onClick={() => Router.push("/")}>Home</div>
+            <div className='cursor-pointer border-b-2 p-[1vh] hover:text-[#a58838] transition-all duration-300' onClick={() => Router.push("/about")}>About Us</div>
+            <div className='cursor-pointer border-b-2 p-[1vh] hover:text-[#a58838] transition-all duration-300' onClick={() => Router.push("/services")}>Services</div>
+            <div className='cursor-pointer border-b-2 p-[1vh] hover:text-[#a58838] transition-all duration-300' onClick={() => Router.push("/contact")}>Contact Us</div>
           </div>
         </div>
       }
