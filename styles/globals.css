@@ -6,7 +6,7 @@ body {
   padding: 0;
   margin: 0;
   overflow-x: hidden;
- 
+  
 }
 
 a {
@@ -38,6 +38,80 @@ a {
   background-position: 0 0, 30px 30px;
   background-repeat: repeat;
 }
+
+@media (max-width:768px) {
+  .w3r-dot{
+    width: full;
+    height: 147vh;
+    background-color: 
+  #fff;
+    background-image: radial-gradient(#ecedf2 20%, transparent 20%);
+    background-size: 20px 20px;
+    background-position: 0 0, 30px 30px;
+    background-repeat: repeat;
+  }
+}
+
+.image-container{
+  width: 100vw;
+  height:115.4vh;
+  background: url(/1.jpg);
+  background-repeat: none;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  
+}
+
+
+
+.image-container .img{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container .img span{
+  width:100%;
+  height:20%;
+  background: url(/2.jpg);
+  transition: 0.9s ease-in-out;
+  justify-content: center;
+  background-size: cover;
+  transform:rotateX(90deg);
+
+}
+
+.image-container .img span:nth-child(1){
+  background-position:0% 0%;
+  
+}
+.image-container .img span:nth-child(2){
+  background-position:0% 24.5%;
+  transition-delay: 0.1s;
+}
+.image-container .img span:nth-child(3){
+  background-position:0% 49.2%;
+  transition-delay: 0.2s;
+  
+}
+.image-container .img span:nth-child(4){
+  background-position:0% 73.8%;
+  transition-delay: 0.3s;
+}
+.image-container .img span:nth-child(5){
+  background-position:0% 98.38%;
+  transition-delay: 0.4s;
+}
+
+.image-container:hover .img > span {
+  transform: rotateX(0deg);
+}
+
 
 
 

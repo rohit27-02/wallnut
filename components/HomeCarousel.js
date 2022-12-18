@@ -6,14 +6,10 @@ import { Carousel } from 'react-responsive-carousel';
 import { IoMdArrowRoundForward } from "react-icons/io"
 import 'animate.css';
 import { useEffect, useRef, useState } from 'react';
+import Router from 'next/router';
 
 const HomeCarousel = () => {
   const [carouselnumber, setcarouselnumber] = useState(-1);
-
-  useEffect(() => {
- 
-
-  }, []);
 
   useEffect(() => {
     p1.current.classList.remove("animate__fadeOutUp")
@@ -24,6 +20,8 @@ const HomeCarousel = () => {
     p2.current.classList.add("animate__fadeInLeft", "animate__delay-1s")
     p3.current.classList.add("animate__fadeInDown", "animate__delay-2s")
     b1.current.classList.add("animate__fadeInUp", "animate__delay-3s")
+   
+    
     setTimeout(() => {
       p2.current.classList.remove("animate__delay-1s")
       p3.current.classList.remove("animate__delay-2s")
@@ -34,12 +32,14 @@ const HomeCarousel = () => {
       b1.current.classList.add("animate__fadeOutDown")
     }, 7500);
 
+
   }, [carouselnumber]);
 
   const p1 = useRef();
   const p2 = useRef();
   const p3 = useRef();
   const b1 = useRef();
+  const b2 = useRef();
 
 
   return (
@@ -49,7 +49,7 @@ const HomeCarousel = () => {
         <div ref={p1} className='text-[2.8125vw] animate__animated'>INTERIOR</div>
         <p ref={p2} className='text-[6.25vw] animate__animated  '>ARCHITECTURE</p>
         <p ref={p3} className='animate__animated '>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est dicta repudiandae commodi vel in repellat<br></br> fugit inventore error incidunt labore. Molestiae, nostrum. Eos repellendus qui accusamus vel velit nobis consequuntur!</p>
-        <button ref={b1} className='flex my-[1.25vw] bg-[#a58838] px-[2.35vw] py-[1.175vw] items-center gap-[1vw] animate__animated '>CONTACT US <IoMdArrowRoundForward className='text-[2vw]' /></button>
+        <button ref={b1} className='flex my-[1.25vw] bg-[#a58838] px-[2.35vw] py-[1.175vw] items-center gap-[1vw] animate__animated ' onClick={()=>{Router.push("/contact")}}>CONTACT US <IoMdArrowRoundForward className='text-[2vw]' /></button>
       </div>
       <Carousel
         autoPlay={true}
@@ -61,19 +61,17 @@ const HomeCarousel = () => {
         onChange={(e) => { setcarouselnumber(e) }}
       >
 
-        <div id='slice image'>
-          <img alt='home-pic' src="/1.jpg" />
-
+        <div  className='image-container'>
+          <div className="img">
+            <span ref={b2}></span><span></span><span></span><span></span><span></span>
+          </div>
         </div>
         <div id='slice'>
           <img alt='home-pic' src="/2.jpg" />
 
         </div>
-        <div id='slice'>
-          <img alt='home-pic' src="/3.jpg" />
-
-        </div>
       </Carousel>
+
 
 
     </div>
