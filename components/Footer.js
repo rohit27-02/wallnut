@@ -1,10 +1,14 @@
 /* eslint-disable @next/next/no-img-element */
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import {FaFacebookF,FaPhone,FaTwitter,FaGoogle,FaLinkedinIn,FaYoutube} from 'react-icons/fa'
 import {MdLocationOn,MdEmail} from "react-icons/md"
 import Router from 'next/router'
 const Footer = () => {
-  return (<div className='flex flex-col bg-[#191717] h-[110vh]  justify-evenly text-gray-400'>
+  const [sw, setsw] = useState(false);
+  useEffect(() => {
+    if(screen.width>768) setsw(true)
+  }, []);
+  return (<div className='flex flex-col bg-[#191717] h-[245vw] md:h-[70vh]  justify-evenly text-gray-400'>
     <div className='   w-full flex flex-col md:flex-row gap-[3vh] md:gap-0 items-center md:items-start px-[4vh] md:px-[4vw] '>
       <div className='flex w-full md:w-[35vw] px-[2vh] md:px-[2vw] flex-col'>
         <img className='md:w-[18vw] ' src='/logo.png' alt='logo'/>
@@ -18,7 +22,7 @@ const Footer = () => {
         </div>
       </div>
       <div className='flex  w-full md:w-[20vw] px-[2vh] md:px-[2vw] flex-col'>
-        <h1 className='text-[2vh]  md:text-[1.875vw] text-white mb-[4vh] md:mb-[4vw]'>Quick Links</h1>
+        <h1 className='text-[2vh]  md:text-[1.875vw] text-white mb-[3vh] md:mb-[4vw]'>Quick Links</h1>
         <div className='flex flex-col gap-[1vh] md:gap-[1vw]'>
           <li className='hover:text-[#a58838] cursor-pointer' onClick={()=>{Router.push("/")}}>Home</li>
           <li className='hover:text-[#a58838] cursor-pointer' onClick={()=>{Router.push("/about")}}>About us</li>
@@ -27,18 +31,18 @@ const Footer = () => {
         </div>
       </div>
       <div className='flex w-full  md:w-[30vw] px-[2vh] md:px-[2vw] gap-[2vh] md:gap-0 flex-col'>
-        <h1 className='text-[2vh] md:text-[1.875vw] mb-[4vh] md:mb-[4vw] text-white'>Contact Info</h1>
+        <h1 className='text-[2vh] md:text-[1.875vw] mb-[2vh] md:mb-[4vw] text-white'>Contact Info</h1>
         <div className='flex '>
-          <MdLocationOn className='text-[3vh] md:text-[1.6vw] absolute md:-mx-[2.2vw] md:mt-[0.2vw]'/>
-          <p className='pl-[5vh] md:pl-0'>1305 Chandak Chambers, WEH metro station, Andheri Kurla road, Andheri East, Mumbai 400069</p>
+          {sw && <MdLocationOn className='text-[3vh] md:text-[1.6vw] absolute md:-mx-[2.2vw] md:mt-[0.2vw]'/>}
+          <p >1305 Chandak Chambers, WEH metro station, Andheri Kurla road, Andheri East, Mumbai 400069</p>
         </div>
         <div className='flex mt-[1.2vw]'>
-          <FaPhone className='text-[3vh] md:text-[1.6vw] absolute md:-mx-[2.2vw] md:mt-[0.2vw]'/>
-          <p className='pl-[5vh] md:pl-0'>00000000</p>
+         {sw && <FaPhone className='text-[3vh] md:text-[1.6vw] absolute md:-mx-[2.2vw] md:mt-[0.2vw]'/>}
+          <p >00000000</p>
         </div>
         <div className='flex mt-[1.2vw]'>
-          <MdEmail className='text-[3vh] md:text-[1.6vw] absolute md:-mx-[2.2vw] md:mt-[0.2vw]'/>
-          <p className='pl-[5vh] md:pl-0'>manan@wallnut.info</p>
+          {sw && <MdEmail className='text-[3vh] md:text-[1.6vw] absolute md:-mx-[2.2vw] md:mt-[0.2vw]'/>}
+          <p >manan@wallnut.info</p>
         </div>
       </div>
       <div className='flex w-full  md:w-[20vw] px-[2vh] md:px-[2vw] flex-col'>

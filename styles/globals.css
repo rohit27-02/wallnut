@@ -30,7 +30,7 @@ a {
 
 .w3r-dot {
   width: full;
-  height: 127vw;
+  height: 130vw;
   background-color: 
 #fff;
   background-image: radial-gradient(#ecedf2 20%, transparent 20%);
@@ -42,7 +42,7 @@ a {
 @media (max-width:768px) {
   .w3r-dot{
     width: full;
-    height: 147vh;
+    height: 155vh;
     background-color: 
   #fff;
     background-image: radial-gradient(#ecedf2 20%, transparent 20%);
