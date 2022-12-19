@@ -12,7 +12,7 @@ export default function Home() {
     <div className='text-[1.5vh] md:text-[1.25vw]'>
       <HomeCarousel />
 
-      <div className='flex flex-wrap  md:flex-row absolute top-[51vh] md:top-[51vw] z-10 w-full justify-center gap-[2vh] md:gap-[2vw] '>
+      <div className='flex flex-wrap  md:flex-row absolute top-[58vh] md:top-[51vw] z-10 w-full justify-center gap-[2vh] md:gap-[2vw] '>
         <div className='flex drop-shadow-xl text-center flex-col justify-center items-center bg-[#363f48] hover:bg-[#a58838] transition-all duration-300 cursor-pointer shadow-inner h-[20vh] md:h-[10.25vw] p-[1.175vh] md:p-[1.175vw] rounded-md w-[45%] md:w-[9.765vw]'><img className='w-[6vh] md:w-[5vw]' src='https://img.icons8.com/carbon-copy/100/ffffff/bed.png' alt='home-icon' />Living Room Better</div>
         <div className='flex drop-shadow-xl text-center flex-col justify-center items-center bg-[#363f48] hover:bg-[#a58838] transition-all duration-300 cursor-pointer shadow-inner h-[20vh] md:h-[10.25vw] p-[1.175vh] md:p-[1.175vw] rounded-md w-[45%] md:w-[9.765vw]'><img className='w-[6vh] md:w-[5vw]' src='https://img.icons8.com/carbon-copy/100/ffffff/office-chair-2.png' alt='home-icon' />Office Furniture</div>
         <div className='flex drop-shadow-xl text-center flex-col justify-center items-center bg-[#363f48] hover:bg-[#a58838] transition-all duration-300 cursor-pointer shadow-inner h-[20vh] md:h-[10.25vw] p-[1.175vh] md:p-[1.175vw] rounded-md w-[45%] md:w-[9.765vw]'><img className='w-[6vh] md:w-[5vw]' src='https://img.icons8.com/carbon-copy/100/ffffff/three-light-candles-chandelier.png' alt='home-icon' />Dedicated Interior</div>
@@ -21,7 +21,7 @@ export default function Home() {
         <div className='flex drop-shadow-xl text-center flex-col justify-center items-center bg-[#363f48] hover:bg-[#a58838] transition-all duration-300 cursor-pointer shadow-inner h-[20vh] md:h-[10.25vw] p-[1.175vh] md:p-[1.175vw] rounded-md w-[45%] md:w-[9.765vw]'><img className='w-[6vh] md:w-[5vw]' src='https://img.icons8.com/carbon-copy/100/ffffff/wardrobe.png' alt='home-icon' />Interior Furniture</div>
       </div>
 
-      <div className="w-full  flex flex-col md:flex-row px-[5vh] md:px-[5vw] pt-[10vh] md:pt-[10vw] pb-[5.75vh] md:pb-[5.75vw] bg-[#ecedf2] text-gray-500 ">
+      <div className="w-full  flex flex-col md:flex-row px-[5vh] md:px-[5vw] pt-[72vh] md:pt-[10vw] pb-[5.75vh] md:pb-[5.75vw] bg-[#ecedf2] text-gray-500 ">
         <div className='pr-[2vh] md:pr-[2vw]'>
           <div className='text-[4.85vh] md:text-[4.85vw] leading-[5vh] md:leading-[5vw] font-bold text-[#363f48]'>
             <span className='text-[#a58838] text-[1.875vh] md:text-[1.875vw]'>WELCOME TO </span><br></br>

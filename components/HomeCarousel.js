@@ -44,14 +44,16 @@ const HomeCarousel = () => {
 
   return (
     <div className=''>
-      <div className='bg-black absolute top-0 w-full h-[115.4vh] z-10 opacity-70'></div>
-      <div className='absolute font-bold top-[20vw] w-full z-10 flex justify-center flex-col items-center'>
-        <div ref={p1} className='text-[2.8125vw] animate__animated'>INTERIOR</div>
-        <p ref={p2} className='text-[6.25vw] animate__animated  '>ARCHITECTURE</p>
-        <p ref={p3} className='animate__animated '>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est dicta repudiandae commodi vel in repellat<br></br> fugit inventore error incidunt labore. Molestiae, nostrum. Eos repellendus qui accusamus vel velit nobis consequuntur!</p>
-        <button ref={b1} className='flex my-[1.25vw] bg-[#a58838] px-[2.35vw] py-[1.175vw] items-center gap-[1vw] animate__animated ' onClick={() => { Router.push("/contact") }}>CONTACT US <IoMdArrowRoundForward className='text-[2vw]' /></button>
+      <div className='bg-black absolute top-0 w-full h-[115.4vw] md:h-[115.4vh] z-10 opacity-70'></div>
+      <div className='absolute font-bold top-[20vh] md:top-[20vw] w-full z-10 flex justify-center flex-col items-center'>
+        <div ref={p1} className='text-[2.8125vh]  md:text-[2.8125vw] animate__animated'>INTERIOR</div>
+        <p ref={p2} className='text-[5vh] md:text-[6.25vw] animate__animated  '>ARCHITECTURE</p>
+        <p ref={p3} className='animate__animated px-4'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est dicta repudiandae commodi vel in repellat<br></br> fugit inventore error incidunt labore. Molestiae, nostrum. Eos repellendus qui accusamus vel velit nobis consequuntur!</p>
+        <button ref={b1} className='flex my-[1.25vh] md:my-[1.25vw] bg-[#a58838] px-[2.35vh] md:px-[2.35vw] py-[1.175vh] md:py-[1.175vw] items-center gap-[1vh] md:gap-[1vw] animate__animated ' onClick={() => { Router.push("/contact") }}>CONTACT US <IoMdArrowRoundForward className='text-[2vh] md:text-[2vw]' /></button>
       </div>
-      <video src='/video.mp4' muted autoPlay loop />
+      <div className=' flex h-[115.4vw] md:h-[115.4vh]'>
+      <video className='object-cover' src='/video.mp4' muted autoPlay loop />
+      </div>
       <Carousel
         onChange={(e) => setcarouselnumber(e)}
         autoPlay={true}
