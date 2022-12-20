@@ -31,7 +31,7 @@ const HomeCarousel = () => {
       p2.current.classList.add("animate__fadeOutLeft")
       p3.current.classList.add("animate__fadeOutUp")
       b1.current.classList.add("animate__fadeOutDown")
-    }, 9000);
+    }, 10000);
 
 
   }, [carouselnumber]);
@@ -52,7 +52,7 @@ const HomeCarousel = () => {
         <button ref={b1} className='flex my-[1.25vh] md:my-[1.25vw] bg-[#a58838] px-[2.35vh] md:px-[2.35vw] py-[1.175vh] md:py-[1.175vw] items-center gap-[1vh] md:gap-[1vw] animate__animated ' onClick={() => { Router.push("/contact") }}>CONTACT US <IoMdArrowRoundForward className='text-[2vh] md:text-[2vw]' /></button>
       </div>
       <div className=' flex h-[115.4vw] md:h-[115.4vh]'>
-      <video className='object-cover' src='/video.mp4' muted autoPlay loop preload='auto' />
+      <video className='object-cover' src='/final.mp4' muted autoPlay loop  />
       </div>
       <Carousel
         onChange={(e) => setcarouselnumber(e)}
@@ -61,7 +61,7 @@ const HomeCarousel = () => {
         showStatus={false}
         showIndicators={false}
         showThumbs={false}
-        interval={10500}
+        interval={12000}
         className='absolute top-0 -z-50'
       >
         <img src='/1.jpg' alt='sample' />
