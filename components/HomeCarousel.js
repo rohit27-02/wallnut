@@ -61,7 +61,7 @@ const HomeCarousel = () => {
         showStatus={false}
         showIndicators={false}
         showThumbs={false}
-        interval={11000}
+        interval={10500}
         className='absolute top-0 -z-50'
       >
         <img src='/1.jpg' alt='sample' />
