@@ -12,7 +12,7 @@ export default function Home() {
     <div className='text-[1.5vh] md:text-[1.25vw]'>
       <HomeCarousel />
 
-      <div className='flex flex-wrap  md:flex-row absolute top-[58vh] md:top-[51vw] z-10 w-full justify-center gap-[2vh] md:gap-[2vw] '>
+      <div className='flex flex-wrap  md:flex-row absolute top-[125vw] md:top-[51vw] z-10 w-full justify-center gap-[2vh] md:gap-[2vw] '>
         <div className='flex drop-shadow-xl text-center flex-col justify-center items-center bg-[#363f48] hover:bg-[#a58838] transition-all duration-300 cursor-pointer shadow-inner h-[20vh] md:h-[10.25vw] p-[1.175vh] md:p-[1.175vw] rounded-md w-[45%] md:w-[9.765vw]'><img className='w-[6vh] md:w-[5vw]' src='https://img.icons8.com/carbon-copy/100/ffffff/bed.png' alt='home-icon' />Living Room Better</div>
         <div className='flex drop-shadow-xl text-center flex-col justify-center items-center bg-[#363f48] hover:bg-[#a58838] transition-all duration-300 cursor-pointer shadow-inner h-[20vh] md:h-[10.25vw] p-[1.175vh] md:p-[1.175vw] rounded-md w-[45%] md:w-[9.765vw]'><img className='w-[6vh] md:w-[5vw]' src='https://img.icons8.com/carbon-copy/100/ffffff/office-chair-2.png' alt='home-icon' />Office Furniture</div>
         <div className='flex drop-shadow-xl text-center flex-col justify-center items-center bg-[#363f48] hover:bg-[#a58838] transition-all duration-300 cursor-pointer shadow-inner h-[20vh] md:h-[10.25vw] p-[1.175vh] md:p-[1.175vw] rounded-md w-[45%] md:w-[9.765vw]'><img className='w-[6vh] md:w-[5vw]' src='https://img.icons8.com/carbon-copy/100/ffffff/three-light-candles-chandelier.png' alt='home-icon' />Dedicated Interior</div>
