@@ -10,9 +10,9 @@ import Router from 'next/router';
 
 const HomeCarousel = () => {
   const [carouselnumber, setcarouselnumber] = useState(0);
-  const [i, seti] = useState(false);
+ 
   useEffect(() => {
-    seti(true)
+    
     p1.current.classList.remove("animate__fadeOutUp")
     p2.current.classList.remove("animate__fadeOutLeft")
     p3.current.classList.remove("animate__fadeOutUp")
@@ -33,9 +33,9 @@ const HomeCarousel = () => {
       b1.current.classList.add("animate__fadeOutDown")
     }, 9000);
 
-    if(i){
+    
     const x = b3.current.children;
-    if (carouselnumber == 0) {
+    if (carouselnumber == 1) {
       b2.current.classList.remove("main")
       s1.current.classList.add("-z-20")
       for (let i = 0; i < x.length; i++) {
@@ -49,7 +49,7 @@ const HomeCarousel = () => {
       for (let i = 0; i < x.length; i++) {
         x[i].classList.remove("animate__fadeOutLeft")
       }
-    }}
+    }
 
 
 
