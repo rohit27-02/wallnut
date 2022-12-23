@@ -12,7 +12,9 @@ const Footer = () => {
     <div className='   w-full flex flex-col md:flex-row gap-[3vh] md:gap-0 items-center md:items-start px-[4vh] md:px-[4vw] '>
       <div className='flex w-full md:w-[35vw] px-[2vh] md:px-[2vw] flex-col'>
         <img className='md:w-[18vw] ' src='/logo.png' alt='logo'/>
-        <p className='py-[2vh] md:py-[1vw]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non animi odit quos reprehenderit. Velit veniam repellat illo perferendis! Debitis inventore reiciendis repellat culpa expedita sunt voluptates aliquid ratione quos odit.</p>
+        <p className='py-[2vh] md:py-[1vw] '>An Interior centric company, accredited with creating masterpieces since its inception.
+Catering to an array of interior solutions like Furniture, Decorative Lights, Artifacts to name a few from around the world.
+</p>
         <div className='flex gap-[5vh] md:gap-[2vw] text-[4vh] md:text-[1.5vw]'>
           <FaFacebookF className='hover:text-[#af8838] cursor-pointer'/>
           <FaTwitter className='hover:text-[#af8838] cursor-pointer'/>
