@@ -9,7 +9,7 @@ export default function Home() {
 
 
   return (
-    <div style={{fontFamily:"'Montserrat', sans-serif"}} className='text-[1.5vh] md:text-[1.25vw]'>
+    <div style={{ fontFamily: "'Montserrat', sans-serif" }} className='text-[1.5vh] md:text-[1.25vw]'>
       <HomeCarousel />
 
       <div className='flex flex-wrap  md:flex-row absolute top-[125vw] md:top-[51vw] z-10 w-full justify-center gap-[2vh] md:gap-[2vw] '>
@@ -32,9 +32,9 @@ export default function Home() {
             We are the best Sourcing Company since 2005.
           </div>
           <div>
-          An Interior centric company, accredited with creating masterpieces since its inception.
-Catering to an array of interior solutions like Furniture, Decorative Lights, Artifacts to name a few from around the world.
-With a diverse portfolio of work, we intend to provide aesthetic solutions to myriad interior fixes across the country
+            An Interior centric company, accredited with creating masterpieces since its inception.
+            Catering to an array of interior solutions like Furniture, Decorative Lights, Artifacts to name a few from around the world.
+            With a diverse portfolio of work, we intend to provide aesthetic solutions to myriad interior fixes across the country
           </div>
           <div className='flex md:flex-row justify-between flex-col gap-[2vh] md:gap-[2vw] mt-[2vh] md:mt-[2vw] '>
             <div className='md:w-1/3 w-full'>
@@ -61,28 +61,29 @@ With a diverse portfolio of work, we intend to provide aesthetic solutions to my
 
       <div className='w3r-dot text-[#363f48]'>
         <div className='flex flex-col md:flex-row py-[3.125vh] md:py-[3.125vw] px-[5vh] md:px-[5vw] items-center text-[#363f48]'>
-          <p className='text-[4.85vh] md:text-[4.85vw] flex md:flex-col pr-[3.9vh] md:pr-[3.9vw] mr-[3.9vh] md:mr-[3.9vw]  border-r-[0.15vw] border-[#a58838] font-bold'><span className='text-[#a58838] text-[2.5vh] md:text-[2.5vw] italic'>LATEST</span>PROJECTS</p>
-          <p className='font-semibold text-[1.5vw]'>“Independence can be tough. Without a studio to back you up, when you finish a feature and want to start a new project you have to start from zero.”</p>
+          <p className='text-[4.85vh] md:text-[4.85vw] flex md:flex-col pr-[3.9vh] md:pr-[3.9vw] mr-[3.9vh] md:mr-[3.9vw]  items-center md:items-start gap-[2vh] md:gap-0 w-full md:border-r-[0.15vw] border-[#a58838] font-bold'><span className='text-[#a58838] text-[2.5vh] md:text-[2.5vw] italic'>LATEST</span>PROJECTS</p>
+          <p className='font-semibold text-[1.5vh] md:text-[1.5vw]'>“Independence can be tough. Without a studio to back you up, when you finish a feature and want to start a new project you have to start from zero.”</p>
         </div>
         <Carousel
-        autoPlay={true}
-        infiniteLoop={true}
-        showStatus={false}
-        showIndicators={false}
-        showThumbs={false}
-        interval={6000}
-       
+          autoPlay={true}
+          infiniteLoop={true}
+          showStatus={false}
+          showIndicators={false}
+          showThumbs={false}
+          interval={6000}
+
         >
-          <div><img src='/4.jpg' alt='project'/></div>
-          <div><img src='/5.jpg' alt='project'/></div>
-         
+          <div><img src='/4.jpg' alt='project' /></div>
+          <div><img src='/5.jpg' alt='project' /></div>
+
         </Carousel>
+
         <div className='flex flex-col md:flex-row py-[3.125vh] md:py-[3.125vw] px-[5vh] md:px-[5vw] items-center text-[#363f48]'>
-          <p className='text-[4.85vh]  md:text-[4.85vw] flex md:flex-col pr-[3.9vh]  md:pr-[3.9vw] mr-[3.9vh] md:mr-[3.9vw] border-r-[0.15vw] border-[#a58838] font-semibold'><span className='text-[#a58838] text-[2.5vh] md:text-[2.5vw] italic'>OUR</span>FOUNDERS</p>
-          <p className='font-semibold text-[1.5vw]'>“It is sobering to reflect that one of the best ways to get yourself a reputation as a dangerous citizen these days is to go about repeating the very phrases which our founding fathers used in the struggle for independence.”</p>
+          <p className='text-[4.85vh]  md:text-[4.85vw] flex md:flex-col pr-[3.9vh]  md:pr-[3.9vw] mr-[3.9vh] md:mr-[3.9vw] items-center md:items-start gap-[2vh] md:gap-0 w-full md:border-r-[0.15vw] border-[#a58838] font-semibold'><span className='text-[#a58838] text-[2.5vh] md:text-[2.5vw] italic'>OUR</span>FOUNDERS</p>
+          <p className='font-semibold text-[1.5vh] md:text-[1.5vw]'>“It is sobering to reflect that one of the best ways to get yourself a reputation as a dangerous citizen these days is to go about repeating the very phrases which our founding fathers used in the struggle for independence.”</p>
         </div>
         <div className='flex max-sm:flex-wrap items-center justify-center gap-[3vh] md:gap-[6vw]'>
-          
+
           <div className='w-[45%] md:w-[20.475vw] h-[30vh] md:h-[50vh] shadow-lg bg-gray-400'>
             <img src='' alt='employee' />
             <div className='text-[1.57vh] md:text-[1.57vw] font-bold flex justify-center p-[1.25vh] md:p-[1.25vw] bg-white mt-[20vh] md:mt-[20vw] w-4/5 mx-auto shadow-lg flex-col items-center'>Manan Mehta<span className='text-[1.25vh] md:text-[1.25vw] font-normal'>Founder</span></div>
@@ -96,6 +97,7 @@ With a diverse portfolio of work, we intend to provide aesthetic solutions to my
             <div className='text-[1/57vh] md:text-[1.57vw] font-bold flex justify-center p-[1.25vh] md:p-[1.25vw] bg-white mt-[20vh] md:mt-[20vw] w-4/5 mx-auto shadow-lg flex-col items-center'>Yogesh Desai<span className='text-[1.25vh] md:text-[1.25vw] font-normal'>Founder</span></div>
           </div>
         </div>
+
       </div>
 
       <div style={{ backgroundImage: `url("/banner.jpg")` }} className='w-full h-[100vh] md:h-[20.32vw] bg-center bg-cover'>
@@ -126,10 +128,10 @@ With a diverse portfolio of work, we intend to provide aesthetic solutions to my
 
       <div style={{ backgroundImage: `url("/banner2.jpg")` }} className=' w-full font-bold text-[2.5vh] italic md:text-[1.875vw] h-[24vh] md:h-[24vw] flex-col flex justify-center items-center text-[#a58838]'>
         TESTIMONIALS
-        <span className='not-italic text-[3.75vh] md:text-[3.75vw] text-[#363f48]'>WHAT OUR CLIENT SAYS</span>
+        <span className='not-italic text-[3.75vh] text-center md: md:text-[3.75vw] text-[#363f48]'>WHAT OUR CLIENT SAYS</span>
       </div>
 
-      <div className='bg-white text-[#363f48] w-full h-[96vh] overflow-hidden md:h-[155vh]'>
+      <div className='bg-white text-[#363f48] w-full h-[125vh] overflow-hidden md:h-[155vh]'>
         <div className='w-full  md:h-[42.5vw] flex flex-col-reverse md:flex-row '>
           <div className='w-full md:w-1/2 p-[4vh] md:p-[4vw]'>
             <div className='border-[#a58838] justify-center text-center flex flex-col  border-l-[0.2vw] border-b-[0.2vw] w-full h-full'>
@@ -144,7 +146,7 @@ With a diverse portfolio of work, we intend to provide aesthetic solutions to my
             <img className='w-1/2 h-full' src='/testimonial1.jpg' alt='testimonial2' />
             <span className='px-[1vh] md:px-0'><i className='text-[3.75vh] md:text-[3.75vw]'>Phasellus</i><br></br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut scelerisque purus. Donec placerat tempor ullamcorper.</span>
           </div>
-          <div className='md:w-1/2 md:h-[32.1vw] flex text-center items-center overflow-hidden'>
+          <div className='md:w-1/2 md:h-[32.1vw] flex md:flex-row flex-row-reverse text-center items-center overflow-hidden'>
             <img className='w-1/2' src='/testimonial2.jpg' alt='testimonial2' />
             <span className='px-[1vh] md:px-0'><i className='text-[3.75vh] md:text-[3.75vw]'>Vestibulum</i><br></br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut scelerisque purus. Donec placerat tempor ullamcorper.</span>
           </div>
