@@ -30,7 +30,7 @@ a {
 
 .w3r-dot {
   width: full;
-  height: 130vw;
+  height: 1480px;
   background-color: 
 #fff;
   background-image: radial-gradient(#ecedf2 20%, transparent 20%);
@@ -41,7 +41,7 @@ a {
 
 .image-container{
   width: 100vw;
-  height:115.4vh;
+  height:700px;
   background: url(/1.jpg);
   background-repeat: none;
   background-size: cover;
@@ -72,7 +72,7 @@ a {
 
 .image-container2{
   width: 100vw;
-  height:115.4vh;
+  height:700px;
   background: url(/1.jpg);
   background-repeat: none;
   background-size: cover;
