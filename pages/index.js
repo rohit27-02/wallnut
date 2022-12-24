@@ -115,17 +115,17 @@ export default function Home() {
                 
             >
                 <Masonry>
-                    <div className=''><div className='w-full bg-black opacity-30 z-20'></div><img src='/10.jpg' alt=''/></div>
-                    <div className=''><div className='w-full bg-black opacity-30 z-20'></div><img src='/11.jpg' alt=''/></div>
-                    <div className=''><div className='w-full bg-black opacity-30 z-20'></div><img src='/13.jpg' alt=''/></div>
-                    <div className=''><div className='w-full bg-black opacity-30 z-20'></div><img src='/12.jpg' alt=''/></div>
-                    <div className=''><div className='w-full bg-black opacity-30 z-20'></div><img src='/14.jpg' alt=''/></div>
-                    <div className=''><div className='w-full bg-black opacity-30 z-20'></div><img src='/14.jpg' alt=''/></div>
-                    <div className=''><div className='w-full bg-black opacity-30 z-20'></div><img src='/12.jpg' alt=''/></div>
-                    <div className=''><div className='w-full bg-black opacity-30 z-20'></div><img src='/11.jpg' alt=''/></div>
-                    <div className=''><div className='w-full bg-black opacity-30 z-20'></div><img src='/11.jpg' alt=''/></div>
-                    <div className=''><div className='w-full bg-black opacity-30 z-20'></div><img src='/13.jpg' alt=''/></div>
-                    <div className=''><div className='w-full bg-black opacity-30 z-20'></div><img src='/18.jpg' alt=''/></div>
+                    <div className=''><div className='w-full bg-black opacity-30 z-20'></div><img src='/10.jpeg' alt=''/></div>
+                    <div className=''><div className='w-full bg-black opacity-30 z-20'></div><img src='/12.jpeg' alt=''/></div>
+                    <div className=''><div className='w-full bg-black opacity-30 z-20'></div><img src='/11.jpeg' alt=''/></div>
+                    <div className=''><div className='w-full bg-black opacity-30 z-20'></div><img src='/13.jpeg' alt=''/></div>
+                    <div className=''><div className='w-full bg-black opacity-30 z-20'></div><img src='/14.jpeg' alt=''/></div>
+                    <div className=''><div className='w-full bg-black opacity-30 z-20'></div><img src='/15.png' alt=''/></div>
+                    <div className=''><div className='w-full bg-black opacity-30 z-20'></div><img src='/16.png' alt=''/></div>
+                    <div className=''><div className='w-full bg-black opacity-30 z-20'></div><img src='/17.png' alt=''/></div>
+                    <div className=''><div className='w-full bg-black opacity-30 z-20'></div><img src='/18.png' alt=''/></div>
+                    <div className=''><div className='w-full bg-black opacity-30 z-20'></div><img src='/19.png' alt=''/></div>
+                    <div className=''><div className='w-full bg-black opacity-30 z-20'></div><img src='/20.png' alt=''/></div>
                 </Masonry>
             </ResponsiveMasonry>
        </div>
