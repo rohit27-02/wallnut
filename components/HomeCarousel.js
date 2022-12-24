@@ -67,14 +67,13 @@ const HomeCarousel = () => {
 
   return (
     <div className=''>
-      <div className='bg-black absolute top-0 w-full h-[115.4vw] md:h-[115.4vh] z-10 opacity-50'></div>
+      <div className='bg-black absolute top-0 w-full h-[115.4vw] md:h-[115.4vh] z-10 opacity-60'></div>
       <div className='absolute font-bold top-[15vh] md:top-[20vw] w-full z-10 flex justify-center flex-col items-center'>
-        <div ref={p1} className='text-[6vh]  md:text-[6vw] animate__animated italic text-[#a58838]'>FURNITURE</div>
-        <p ref={p2} className='text-[3vh] md:text-[3vw] animate__animated  '>BUILDING MATERIAL</p>
-        <p ref={p3} className='animate__animated px-4 text-center'>An Interior centric company, accredited with creating masterpieces since its inception.
-Catering to an array of interior solutions like Furniture, Decorative Lights, Artifacts to name a few from around the world.
-With a diverse portfolio of work, we intend to provide aesthetic solutions to myriad interior fixes across the country</p>
-        <button ref={b1} className='flex my-[1.25vh] md:my-[1.25vw] bg-[#a58838] px-[2.35vh] md:px-[2.35vw] py-[1.175vh] md:py-[1.175vw] items-center gap-[1vh] md:gap-[1vw] animate__animated ' onClick={() => { Router.push("/contact") }}>CONTACT US <IoMdArrowRoundForward className='text-[2vh] md:text-[2vw]' /></button>
+        <div ref={p1} className='text-[6vh]  md:text-4xl italic animate__animated '>FURNITURE</div>
+        <p ref={p2} className='text-[3vh] md:text-7xl animate__animated  pb-8'>BUILDING MATERIAL</p>
+        <p ref={p3} className='animate__animated px-40 text-center text-base'>An Interior centric company, accredited with creating masterpieces since its inception.
+Catering to an array of interior solutions like Furniture, Decorative Lights, Artifacts to name a few from around the world.</p>
+        <button ref={b1} className='flex text-base my-[1.25vh] md:my-4 bg-[#a58838] px-[2.35vh] md:px-[1.9rem] py-[1.175vh] md:py-[0.94rem] items-center gap-[1vh] md:gap-[1vw] animate__animated ' onClick={() => { Router.push("/contact") }}>CONTACT US <IoMdArrowRoundForward className='text-[2vh] md:text-[2vw]' /></button>
       </div>
       <div className=' flex h-[115.4vw] md:h-[115.4vh]'>
         <Carousel

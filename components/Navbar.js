@@ -20,13 +20,13 @@ const Navbar = () => {
           <Hamburger toggled={isOpen} toggle={setisOpen} />
         </div>
       </div> :
-        <div className='h-[6.25vw] pr-[2vw] bg-black bg-opacity-90 flex justify-between items-center w-full'>
-          <img alt='logo' className='h-[6vw]' src='/logo.png' />
+        <div className='h-[4.875rem] pr-[2vw] bg-black bg-opacity-90 flex justify-between items-center w-[1140px]'>
+          <img alt='logo' className='w-[198px] ' src='/logo.png' />
           <div className='flex w-2/4 font-medium justify-between'>
-            <div className='cursor-pointer hover:text-[#a58838] transition-all duration-300' onClick={() => Router.push("/")}>Home</div>
-            <div className='cursor-pointer hover:text-[#a58838] transition-all duration-300' onClick={() => Router.push("/about")}>About Us</div>
-            <div className='cursor-pointer hover:text-[#a58838] transition-all duration-300' onClick={() => Router.push("/products")}>Products</div>
-            <div className='cursor-pointer hover:text-[#a58838] transition-all duration-300' onClick={() => Router.push("/contact")}>Contact Us</div>
+            <div className='cursor-pointer hover:text-[#a58838] transition-all duration-300 md:text-sm' onClick={() => Router.push("/")}>Home</div>
+            <div className='cursor-pointer hover:text-[#a58838] transition-all duration-300 md:text-sm' onClick={() => Router.push("/about")}>About Us</div>
+            <div className='cursor-pointer hover:text-[#a58838] transition-all duration-300 md:text-sm' onClick={() => Router.push("/products")}>Products</div>
+            <div className='cursor-pointer hover:text-[#a58838] transition-all duration-300 md:text-sm' onClick={() => Router.push("/contact")}>Contact Us</div>
           </div>
         </div>
       }

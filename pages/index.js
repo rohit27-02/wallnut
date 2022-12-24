@@ -9,7 +9,7 @@ export default function Home() {
 
 
   return (
-    <div style={{ fontFamily: "'Montserrat', sans-serif" }} className='text-[1.5vh] md:text-[1.25vw]'>
+    <div style={{ fontFamily: "'Montserrat', sans-serif" }} className='text-[1.5vh] md:text-base'>
       <HomeCarousel />
 
       <div className='flex flex-wrap  md:flex-row absolute top-[125vw] md:top-[51vw] z-10 w-full justify-center gap-[2vh] md:gap-[2vw] '>
