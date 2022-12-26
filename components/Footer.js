@@ -49,6 +49,12 @@ Catering to an array of interior solutions like Furniture, Decorative Lights, Ar
       </div>
       <div className='flex w-full  md:w-[20vw] px-[2vh] md:px-[2vw] flex-col'>
         <h1 className='text-[2vh] md:text-[24px] text-white'>Instagram</h1>
+        <div className='flex flex-wrap gap-[1vw]'>
+          <img className='w-[5vw] h-[5vw]' src='/1.jpg' alt='insta-pic'/>
+          <img className='w-[5vw] h-[5vw]' src='/2.jpg' alt='insta-pic'/>
+          <img className='w-[5vw] h-[5vw]' src='/3.jpg' alt='insta-pic'/>
+          <img className='w-[5vw] h-[5vw]' src='/4.jpg' alt='insta-pic'/>
+        </div>
         <div>
 
         </div>

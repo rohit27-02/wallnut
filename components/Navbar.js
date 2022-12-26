@@ -26,6 +26,7 @@ const Navbar = () => {
             <div className='cursor-pointer hover:text-[#a58838] transition-all duration-300 md:text-sm' onClick={() => Router.push("/")}>Home</div>
             <div className='cursor-pointer hover:text-[#a58838] transition-all duration-300 md:text-sm' onClick={() => Router.push("/about")}>About Us</div>
             <div className='cursor-pointer hover:text-[#a58838] transition-all duration-300 md:text-sm' onClick={() => Router.push("/products")}>Products</div>
+            <div className='cursor-pointer hover:text-[#a58838] transition-all duration-300 md:text-sm' onClick={() => Router.push("/projects")}>Projects</div>
             <div className='cursor-pointer hover:text-[#a58838] transition-all duration-300 md:text-sm' onClick={() => Router.push("/contact")}>Contact Us</div>
           </div>
         </div>

@@ -10,9 +10,9 @@ import Router from 'next/router';
 
 const HomeCarousel = () => {
   const [carouselnumber, setcarouselnumber] = useState(0);
- 
+
   useEffect(() => {
-    
+
     p1.current.classList.remove("animate__fadeOutUp")
     p2.current.classList.remove("animate__fadeOutLeft")
     p3.current.classList.remove("animate__fadeOutUp")
@@ -33,7 +33,7 @@ const HomeCarousel = () => {
       b1.current.classList.add("animate__fadeOutDown")
     }, 9000);
 
-    
+
     const x = b3.current.children;
     if (carouselnumber == 1) {
       b2.current.classList.remove("main")
@@ -68,11 +68,11 @@ const HomeCarousel = () => {
   return (
     <div className=''>
       <div className='bg-black absolute top-0 w-full h-[115.4vw] md:h-[700px] z-10 opacity-60'></div>
-      <div className='absolute font-bold top-[15vh] md:top-[250px] w-full z-10 flex justify-center flex-col items-center'>
-        <div ref={p1} className='text-[6vh]  md:text-4xl italic animate__animated '>FURNITURE</div>
-        <p ref={p2} className='text-[3vh] md:text-7xl animate__animated  pb-8'>BUILDING MATERIAL</p>
-        <p ref={p3} className='animate__animated px-40 text-center text-base'>An Interior centric company, accredited with creating masterpieces since its inception.
-Catering to an array of interior solutions like Furniture, Decorative Lights, Artifacts to name a few from around the world.</p>
+      <div className='absolute font-bold top-[15vh] md:top-[250px] w-full md:z-20 z-10 flex justify-center flex-col items-center'>
+        <div ref={p1} className='text-xl  md:text-4xl italic animate__animated '>FURNITURE</div>
+        <p ref={p2} className='text-2xl md:text-7xl animate__animated  pb-8'>SOURCING COMPANY</p>
+        <p ref={p3} className='animate__animated md:px-40 text-center text-xs px-4 md:text-base'>An Interior centric company, accredited with creating masterpieces since its inception.
+          Catering to an array of interior solutions like Furniture, Decorative Lights, Artifacts to name a few from around the world.</p>
         <button ref={b1} className='flex text-base my-[1.25vh] md:my-4 bg-[#a58838] px-[2.35vh] md:px-[1.9rem] py-[1.175vh] md:py-[0.94rem] items-center gap-[1vh] md:gap-2 animate__animated ' onClick={() => { Router.push("/contact") }}>CONTACT US <IoMdArrowRoundForward className='text-[2vh] md:text-xl' /></button>
       </div>
       <div className=' flex h-[115.4vw] md:h-[700px]'>
@@ -100,12 +100,12 @@ Catering to an array of interior solutions like Furniture, Decorative Lights, Ar
         </div>
       </div>
       <div className='image-container2 absolute top-0 -z-10'>
-        <div ref={b3} className="img2 flex flex-wrap -mt-[0.4vw]">
-          <span className='animate__animated '></span>
-          <span className='animate__animated '></span>
-          <span className='animate__animated '></span>
-          <span className='animate__animated '></span>
-          <span className='animate__animated '></span>
+        <div ref={b3} className="img2 flex flex-wrap ">
+          <span className='animate__animated animate__slower '></span>
+          <span className='animate__animated animate__slower '></span>
+          <span className='animate__animated animate__slower '></span>
+          <span className='animate__animated animate__slower '></span>
+          <span className='animate__animated animate__slower '></span>
         </div>
       </div>
 

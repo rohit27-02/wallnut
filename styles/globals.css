@@ -42,31 +42,31 @@ a {
 .image-container{
   width: 100vw;
   height:700px;
-  background: url(/1.jpg);
+  background-color: white;
   background-repeat: none;
   background-size: cover;
   overflow: hidden;
   
 }
 .image-container .img span:nth-child(2){
-  background-position:0% 24.4%;
-  margin-top: -0.1%;
+  background-position:0% 18.4%;
+  margin-top: -0.05%;
   transition-delay: 0.1s;
 }
 .image-container .img span:nth-child(3){
-  background-position:0% 48.8%;
-  margin-top: -0.1%;
+  background-position:0% 36.8%;
+  margin-top: -0.05%;
   transition-delay: 0.2s;
   
 }
 .image-container .img span:nth-child(4){
-  background-position:0% 73.1%;
-  margin-top: -0.1%;
+  background-position:0% 55.2%;
+  margin-top: -0.05%;
   transition-delay: 0.3s;
 }
 .image-container .img span:nth-child(5){
-  background-position:0% 97.7%;
-  margin-top: -0.1%;
+  background-position:0% 73.6%;
+  margin-top: -0.05%;
   transition-delay: 0.4s;
 }
 
@@ -93,7 +93,7 @@ a {
 @media (max-width:768px) {
   .w3r-dot{
     width: full;
-    height: 155vh;
+    height: 235vh;
     background-color: 
   #fff;
     background-image: radial-gradient(#ecedf2 20%, transparent 20%);
@@ -123,23 +123,23 @@ a {
   }
   .image-container .img span:nth-child(2){
     background-position:0% 8.95%;
-    margin-top: -0.1%;
+    margin-top: -0.05%;
     transition-delay: 0.1s;
   }
   .image-container .img span:nth-child(3){
     background-position:0% 18.3%;
-    margin-top: -0.1%;
+    margin-top: -0.05%;
     transition-delay: 0.2s;
     
   }
   .image-container .img span:nth-child(4){
     background-position:0% 27.3%;
-    margin-top: -0.1%;
+    margin-top: -0.05%;
     transition-delay: 0.3s;
   }
   .image-container .img span:nth-child(5){
     background-position:0% 36%;
-    margin-top: -0.1%;
+    margin-top: -0.05%;
     transition-delay: 0.4s;
   }
 
@@ -208,23 +208,23 @@ a {
 }
 .image-container2 .img2 span:nth-child(2){
   background-position:25% 0%;
-  margin-top: -0.1%;
+  margin-top: -0.05%;
   
 }
 .image-container2 .img2 span:nth-child(3){
   background-position:50% 0%;
-  margin-top: -0.1%;
+  margin-top: -0.05%;
   
   
 }
 .image-container2 .img2 span:nth-child(4){
   background-position:75% 0%;
-  margin-top: -0.1%;
+  margin-top: -0.05%;
   
 }
 .image-container2 .img2 span:nth-child(5){
   background-position:100% 0%;
-  margin-top: -0.1%;
+  margin-top: -0.05%;
   
 }
 
