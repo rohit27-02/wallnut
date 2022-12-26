@@ -48,24 +48,29 @@ a {
   overflow: hidden;
   
 }
+
+.image-container .img span:nth-child(1){
+  background-position:0% 0px;
+  
+}
 .image-container .img span:nth-child(2){
-  background-position:0% 18.4%;
+  background-position:0% -139px;
   margin-top: -0.05%;
   transition-delay: 0.1s;
 }
 .image-container .img span:nth-child(3){
-  background-position:0% 36.8%;
+  background-position:0% -278px;
   margin-top: -0.05%;
   transition-delay: 0.2s;
   
 }
 .image-container .img span:nth-child(4){
-  background-position:0% 55.2%;
+  background-position:0% -417px;
   margin-top: -0.05%;
   transition-delay: 0.3s;
 }
 .image-container .img span:nth-child(5){
-  background-position:0% 73.6%;
+  background-position:0% -556px;
   margin-top: -0.05%;
   transition-delay: 0.4s;
 }
@@ -165,15 +170,6 @@ a {
   display: flex;
   flex-direction: column;
 }
-
-
-
-
-.image-container .img span:nth-child(1){
-  background-position:0% 0%;
-  
-}
-
 
 .image-container .main > span{
   transform: rotateX(0deg);

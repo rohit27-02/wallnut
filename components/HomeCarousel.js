@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Head from 'next/head'
+import Image from 'next/image';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import { IoMdArrowRoundForward } from "react-icons/io"
@@ -84,10 +85,10 @@ const HomeCarousel = () => {
           showIndicators={false}
           showThumbs={false}
           interval={11000}
-          className='absolute object-cover h-[700px] top-0 -z-10 '
+          className='absolute object-cover h-[1vw] top-0 -z-10 '
         >
-          <img src='/1.jpg' alt='sample' />
-          <img src='/2.jpg' alt='sample' />
+          <Image width={1} height={1} src='/1.jpg' alt='sample' />
+          <Image width={1} height={1} src='/2.jpg' alt='sample' />
         </Carousel>
       </div>
       <div ref={s1} className='image-container  absolute top-0 '>

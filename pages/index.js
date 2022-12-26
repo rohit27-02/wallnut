@@ -3,6 +3,7 @@
 import HomeCarousel from '../components/HomeCarousel';
 import 'animate.css';
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry"
+import Image from 'next/image';
 
 export default function Home() {
 
@@ -54,7 +55,7 @@ export default function Home() {
           </div>
         </div>
         <div className='mt-10 border-white border-[2vh] md:border-[1.5rem] overflow-hidden md:w-[457.5px] md:h-[571px] drop-shadow-lg'>
-          <img className=' object-cover ' src='3.jpg' alt='image-with-border' />
+          <Image width={457.5} height={571} className=' object-cover ' src='/3.jpg' alt='image-with-border' />
         </div>
       </div>
 
