@@ -65,7 +65,7 @@ export default function Home() {
           <p className='font-semibold text-[1.5vh] md:text-sm'>“Independence can be tough. Without a studio to back you up, when you finish a feature and want to start a new project you have to start from zero.”</p>
         </div>
 
-        <div className='h-[43.75rem] overflow-hidden'>
+        <div className='h-[630px] overflow-hidden'>
           <ResponsiveMasonry
             columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 4 }}
 
