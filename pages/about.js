@@ -35,7 +35,7 @@ const about = () => {
               {/* <p>Furniture refers to movable objects intended to support various human activities such as seating (e.g., stools, chairs, and sofas), eating (tables), storing items, eating and/or working with an item, and sleeping (e.g., beds and hammocks).</p> */}
             </div>
             <div className='md:w-1/3 w-full'>
-              <img className='w-[5vh] md:w-[3.75rem]' src='https://img.icons8.com/external-icongeek26-flat-icongeek26/96/null/external-hospital-pregnancy-amp-maternity-icongeek26-flat-icongeek26.png' alt='home-icon2' />
+              <img className='w-[5vh] md:w-[3.75rem]' src='https://img.icons8.com/emoji/96/null/hotel-emoji.png' alt='home-icon2' />
               <h1 className='mt-[0.8vh] md:mt-[0.8vw] mb-[0.8vh] md:mb-[0.8vw] text-[1.40625vh] md:text-lg text-[#a58838] font-bold'>Hospitality Furniture</h1>
               {/* <p>Furniture design expanded during the Italian Renaissance of the fourteenth and fifteenth century.</p> */}
             </div>
