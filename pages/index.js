@@ -137,7 +137,8 @@ export default function Home() {
         </div>
       </div>
 
-      <div style={{ backgroundImage: `url("/banner2.jpg")` }} className=' w-full font-bold text-[2.5vh] italic md:text-[24px] h-[24vh] md:h-[302.56px] flex-col flex justify-center items-center text-[#a58838]'>
+      <div  className='relative w-full font-bold text-[2.5vh] italic md:text-[24px] h-[24vh] md:h-[302.56px] flex-col flex justify-center items-center text-[#a58838]'>
+        <img className='object-cover w-full opacity-20 h-full absolute top-0' src='/99.png' alt='banner'/>
         TESTIMONIALS
         <span className='not-italic text-[3.75vh] text-center md: md:text-[42px] text-[#363f48] pt-8'>WHAT OUR CLIENT SAYS</span>
       </div>
