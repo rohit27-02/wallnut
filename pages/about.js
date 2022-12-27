@@ -4,7 +4,7 @@ import Banner from '../components/Banner'
 
 const about = () => {
   return (
-    <div>
+    <div style={{ fontFamily: "'Montserrat', sans-serif" }}>
       <Banner title={"About Us"} />
 
 
@@ -13,7 +13,7 @@ const about = () => {
           <div className='text-[4.85vh] md:text-[3.875rem] leading-[5vh] md:leading-[5vw] font-bold text-[#363f48]'>
             <span className='text-[#a58838] text-[1.875vh] md:text-2xl italic'>WELCOME TO </span><br></br>
             WALLNUT <br></br>
-            <strong className='text-[#a58838] font-bold text-[1.5vh] md:text-[3.875rem]'>CREATIVITY DELIVERY</strong>
+            <strong className='text-[#a58838] font-bold text-[1.5vh] md:text-[3.875rem]'>CREATIVITY DELIVERED</strong>
           </div>
           <div className='text-[#363f48] text-[1.875vh] md:text-2xl font-bold mt-[2vh] md:mt-[2vw] mb-[1vh] md:mb-[1vw]'>
             We are the best Sourcing Company since 2005.
@@ -73,23 +73,23 @@ const about = () => {
       </div>
 
       <div className='flex flex-col md:flex-row py-[3.125vh] md:py-[54px] px-[10vw] items-center text-[#363f48]'>
-          <p className='text-[4.85vh] md:text-[3.875rem] flex md:flex-col pr-0 md:pr-[50px] mr-[3.9vh] md:mr-[50px]  items-center md:items-start gap-[2vh] md:gap-4  md:border-r-[0.15vw] border-[#a58838] font-bold'><span className='text-[#a58838] text-[2.5vh] md:text-2xl italic'>OUR</span>FOUNDERS</p>
+          <p className='text-[4.85vh] md:text-[3.875rem] flex md:flex-col pr-0 md:pr-[50px] mr-[3.9vh] md:mr-[50px]  items-center md:items-start gap-[2vh] md:gap-0  md:border-r-[0.15vw] border-[#a58838] font-bold'><span className='text-[#a58838] text-[2.5vh] md:text-2xl italic'>OUR</span>FOUNDERS</p>
           <p className='font-semibold text-[1.5vh] md:text-sm'>“It is sobering to reflect that one of the best ways to get yourself a reputation as a dangerous citizen these days is to go about repeating the very phrases which our founding fathers used in the struggle for independence.”</p>
         </div>
         <div className='flex flex-col md:flex-row items-center pb-10 md:pb-36 text-[#333333] justify-center gap-[3vh] md:gap-[6vw]'>
 
-          <div className='w-[50%] relative first:[&>*]:hover:h-full md:w-[262.51px] h-[30vh] md:h-[309.19px] shadow-lg bg-gray-400'>
-            <div className='w-full h-0  transition-all duration-500 ease-in-out absolute bg-black opacity-40 '></div>
+          <div className='w-[50%] md:w-[262.51px] h-[30vh] md:h-[309.19px] shadow-lg bg-gray-400'>
+          
             <img src='' alt='employee' />
             <div className='text-[1.57vh] z-30 md:text-xl font-bold flex justify-center p-[1.25vh] md:p-[15px] bg-white mt-[20vh] md:mt-[260px] w-4/5 mx-auto shadow-lg flex-col items-center'>Manan Mehta<span className='text-[1.25vh] md:text-sm font-normal'>Founder</span></div>
           </div>
-          <div className='w-[50%] relative first:[&>*]:hover:h-full md:w-[262.51px] h-[30vh] md:h-[309.19px] shadow-lg bg-gray-400'>
-            <div className='w-full h-0  transition-all duration-500 ease-in-out absolute bg-black opacity-40 '></div>
+          <div className='w-[50%] md:w-[262.51px] h-[30vh] md:h-[309.19px] shadow-lg bg-gray-400'>
+          
             <img src='' alt='employee' />
             <div className='text-[1.57vh] z-30 md:text-xl font-bold flex justify-center p-[1.25vh] md:p-[15px] bg-white mt-[20vh] md:mt-[260px] w-4/5 mx-auto shadow-lg flex-col items-center'>Gaurav Jain<span className='text-[1.25vh] md:text-sm font-normal'>Founder</span></div>
           </div>
-          <div className='w-[50%] relative first:[&>*]:hover:h-full md:w-[262.51px] h-[30vh] md:h-[309.19px] shadow-lg bg-gray-400'>
-            <div className='w-full h-0  transition-all duration-500 ease-in-out absolute bg-black opacity-40 '></div>
+          <div className='w-[50%] md:w-[262.51px] h-[30vh] md:h-[309.19px] shadow-lg bg-gray-400'>
+          
             <img src='' alt='employee' />
             <div className='text-[1/57vh] z-30 md:text-xl font-bold flex justify-center p-[1.25vh] md:p-[15px] bg-white mt-[20vh] md:mt-[260px] w-4/5 mx-auto shadow-lg flex-col items-center'>Yogesh Desai<span className='text-[1.25vh] md:text-sm font-normal'>Founder</span></div>
           </div>
