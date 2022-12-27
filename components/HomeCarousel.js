@@ -40,7 +40,7 @@ const HomeCarousel = () => {
       b2.current.classList.remove("main")
       s1.current.classList.add("-z-20")
       for (let i = 0; i < x.length; i++) {
-        x[i].classList.add("animate__fadeOutLeft")
+        x[i].classList.add("animate__flipOutY")
       }
 
     }
@@ -48,7 +48,7 @@ const HomeCarousel = () => {
       s1.current.classList.remove("-z-20")
       b2.current.classList.add("main")
       for (let i = 0; i < x.length; i++) {
-        x[i].classList.remove("animate__fadeOutLeft")
+        x[i].classList.remove("animate__flipOutY")
       }
     }
 

@@ -71,17 +71,17 @@ export default function Home() {
 
           >
             <Masonry className=''>
-              <div className='relative first:[&>*]:hover:h-full '><div className='w-full h-0 bottom-0 transition-all duration-500 ease-in-out absolute bg-black opacity-40 z-20'></div><img src='/10.jpeg' alt='' /></div>
-              <div className='relative first:[&>*]:hover:h-full '><div className='w-full h-0 bottom-0 transition-all duration-500 ease-in-out absolute bg-black opacity-40 z-20'></div><img src='/12.jpeg' alt='' /></div>
-              <div className='relative first:[&>*]:hover:h-full '><div className='w-full h-0 bottom-0 transition-all duration-500 ease-in-out absolute bg-black opacity-40 z-20'></div><img src='/11.jpeg' alt='' /></div>
-              <div className='relative first:[&>*]:hover:h-full '><div className='w-full h-0 bottom-0 transition-all duration-500 ease-in-out absolute bg-black opacity-40 z-20'></div><img src='/13.jpeg' alt='' /></div>
-              <div className='relative first:[&>*]:hover:h-full '><div className='w-full h-0 bottom-0 transition-all duration-500 ease-in-out absolute bg-black opacity-40 z-20'></div><img src='/14.jpeg' alt='' /></div>
-              <div className='relative first:[&>*]:hover:h-full '><div className='w-full h-0 bottom-0 transition-all duration-500 ease-in-out absolute bg-black opacity-40 z-20'></div><img src='/15.png' alt='' /></div>
-              <div className='relative first:[&>*]:hover:h-full '><div className='w-full h-0 bottom-0 transition-all duration-500 ease-in-out absolute bg-black opacity-40 z-20'></div><img src='/16.png' alt='' /></div>
-              <div className='relative first:[&>*]:hover:h-full '><div className='w-full h-0 bottom-0 transition-all duration-500 ease-in-out absolute bg-black opacity-40 z-20'></div><img src='/17.png' alt='' /></div>
-              <div className='relative first:[&>*]:hover:h-full '><div className='w-full h-0 bottom-0 transition-all duration-500 ease-in-out absolute bg-black opacity-40 z-20'></div><img src='/18.png' alt='' /></div>
-              <div className='relative first:[&>*]:hover:h-full '><div className='w-full h-0 bottom-0 transition-all duration-500 ease-in-out absolute bg-black opacity-40 z-20'></div><img src='/19.png' alt='' /></div>
-              <div className='relative first:[&>*]:hover:h-full '><div className='w-full h-0 bottom-0 transition-all duration-500 ease-in-out absolute bg-black opacity-40 z-20'></div><img src='/20.png' alt='' /></div>
+              <div className='relative first:[&>*]:hover:h-full first:[&>*]:[&>*]:hover:block'><div className='w-full h-0 bottom-0 transition-all duration-500 ease-in-out absolute bg-black bg-opacity-40 z-20'><span className='text-white h-full p-[20px]  font-bold text-[24px] hidden '>Interior Design<br></br><span className='text-[16px] font-medium'>Design & Consult</span></span></div><img src='/10.jpeg' alt='' /></div>
+              <div className='relative first:[&>*]:hover:h-full first:[&>*]:[&>*]:hover:block'><div className='w-full h-0 bottom-0 transition-all duration-500 ease-in-out absolute bg-black bg-opacity-40 z-20'><span className='text-white h-full p-[20px]  font-bold text-[24px] hidden '>Interior Design<br></br><span className='text-[16px] font-medium'>Design & Consult</span></span></div><img src='/12.jpeg' alt='' /></div>
+              <div className='relative first:[&>*]:hover:h-full first:[&>*]:[&>*]:hover:block'><div className='w-full h-0 bottom-0 transition-all duration-500 ease-in-out absolute bg-black bg-opacity-40 z-20'><span className='text-white h-full p-[20px]  font-bold text-[24px] hidden '>Interior Design<br></br><span className='text-[16px] font-medium'>Design & Consult</span></span></div><img src='/11.jpeg' alt='' /></div>
+              <div className='relative first:[&>*]:hover:h-full first:[&>*]:[&>*]:hover:block'><div className='w-full h-0 bottom-0 transition-all duration-500 ease-in-out absolute bg-black bg-opacity-40 z-20'><span className='text-white h-full p-[20px]  font-bold text-[24px] hidden '>Interior Design<br></br><span className='text-[16px] font-medium'>Design & Consult</span></span></div><img src='/13.jpeg' alt='' /></div>
+              <div className='relative first:[&>*]:hover:h-full first:[&>*]:[&>*]:hover:block'><div className='w-full h-0 bottom-0 transition-all duration-500 ease-in-out absolute bg-black bg-opacity-40 z-20'><span className='text-white h-full p-[20px]  font-bold text-[24px] hidden '>Interior Design<br></br><span className='text-[16px] font-medium'>Design & Consult</span></span></div><img src='/14.jpeg' alt='' /></div>
+              <div className='relative first:[&>*]:hover:h-full first:[&>*]:[&>*]:hover:block'><div className='w-full h-0 bottom-0 transition-all duration-500 ease-in-out absolute bg-black bg-opacity-40 z-20'><span className='text-white h-full p-[20px]  font-bold text-[24px] hidden '>Interior Design<br></br><span className='text-[16px] font-medium'>Design & Consult</span></span></div><img src='/15.png' alt='' /></div>
+              <div className='relative first:[&>*]:hover:h-full first:[&>*]:[&>*]:hover:block'><div className='w-full h-0 bottom-0 transition-all duration-500 ease-in-out absolute bg-black bg-opacity-40 z-20'><span className='text-white h-full p-[20px]  font-bold text-[24px] hidden '>Interior Design<br></br><span className='text-[16px] font-medium'>Design & Consult</span></span></div><img src='/16.png' alt='' /></div>
+              <div className='relative first:[&>*]:hover:h-full first:[&>*]:[&>*]:hover:block'><div className='w-full h-0 bottom-0 transition-all duration-500 ease-in-out absolute bg-black bg-opacity-40 z-20'><span className='text-white h-full p-[20px]  font-bold text-[24px] hidden '>Interior Design<br></br><span className='text-[16px] font-medium'>Design & Consult</span></span></div><img src='/17.png' alt='' /></div>
+              <div className='relative first:[&>*]:hover:h-full first:[&>*]:[&>*]:hover:block'><div className='w-full h-0 bottom-0 transition-all duration-500 ease-in-out absolute bg-black bg-opacity-40 z-20'><span className='text-white h-full p-[20px]  font-bold text-[24px] hidden '>Interior Design<br></br><span className='text-[16px] font-medium'>Design & Consult</span></span></div><img src='/18.png' alt='' /></div>
+              <div className='relative first:[&>*]:hover:h-full first:[&>*]:[&>*]:hover:block'><div className='w-full h-0 bottom-0 transition-all duration-500 ease-in-out absolute bg-black bg-opacity-40 z-20'><span className='text-white h-full p-[20px]  font-bold text-[24px] hidden '>Interior Design<br></br><span className='text-[16px] font-medium'>Design & Consult</span></span></div><img src='/19.png' alt='' /></div>
+              <div className='relative first:[&>*]:hover:h-full first:[&>*]:[&>*]:hover:block'><div className='w-full h-0 bottom-0 transition-all duration-500 ease-in-out absolute bg-black bg-opacity-40 z-20'><span className='text-white h-full p-[20px]  font-bold text-[24px] hidden '>Interior Design<br></br><span className='text-[16px] font-medium'>Design & Consult</span></span></div><img src='/20.png' alt='' /></div>
             </Masonry>
           </ResponsiveMasonry>
         </div>
@@ -92,18 +92,18 @@ export default function Home() {
         </div>
         <div className='flex flex-col md:flex-row items-center justify-center gap-[3vh] md:gap-[6vw]'>
 
-          <div className='w-[50%] relative first:[&>*]:hover:h-full md:w-[262.51px] h-[30vh] md:h-[309.19px] shadow-lg bg-gray-400'>
-            <div className='w-full h-0  transition-all duration-500 ease-in-out absolute bg-black opacity-40 '></div>
+          <div className='w-[50%] relative  md:w-[262.51px] h-[30vh] md:h-[309.19px] shadow-lg bg-gray-400'>
+            
             <img src='' alt='employee' />
             <div className='text-[1.57vh] z-30 md:text-xl font-bold flex justify-center p-[1.25vh] md:p-[15px] bg-white mt-[20vh] md:mt-[260px] w-4/5 mx-auto shadow-lg flex-col items-center'>Manan Mehta<span className='text-[1.25vh] md:text-sm font-normal'>Founder</span></div>
           </div>
-          <div className='w-[50%] relative first:[&>*]:hover:h-full md:w-[262.51px] h-[30vh] md:h-[309.19px] shadow-lg bg-gray-400'>
-            <div className='w-full h-0  transition-all duration-500 ease-in-out absolute bg-black opacity-40 '></div>
+          <div className='w-[50%] relative  md:w-[262.51px] h-[30vh] md:h-[309.19px] shadow-lg bg-gray-400'>
+            
             <img src='' alt='employee' />
             <div className='text-[1.57vh] z-30 md:text-xl font-bold flex justify-center p-[1.25vh] md:p-[15px] bg-white mt-[20vh] md:mt-[260px] w-4/5 mx-auto shadow-lg flex-col items-center'>Ketan Sheth<span className='text-[1.25vh] md:text-sm font-normal'>Founder</span></div>
           </div>
-          <div className='w-[50%] relative first:[&>*]:hover:h-full md:w-[262.51px] h-[30vh] md:h-[309.19px] shadow-lg bg-gray-400'>
-            <div className='w-full h-0  transition-all duration-500 ease-in-out absolute bg-black opacity-40 '></div>
+          <div className='w-[50%] relative  md:w-[262.51px] h-[30vh] md:h-[309.19px] shadow-lg bg-gray-400'>
+            
             <img src='' alt='employee' />
             <div className='text-[1/57vh] z-30 md:text-xl font-bold flex justify-center p-[1.25vh] md:p-[15px] bg-white mt-[20vh] md:mt-[260px] w-4/5 mx-auto shadow-lg flex-col items-center'>Girish Punjabi<span className='text-[1.25vh] md:text-sm font-normal'>Founder</span></div>
           </div>
