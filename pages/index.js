@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-
+import Head from 'next/head';
 import HomeCarousel from '../components/HomeCarousel';
 import 'animate.css';
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry"
@@ -10,6 +10,9 @@ export default function Home() {
 
   return (
     <div style={{ fontFamily: "'Montserrat', sans-serif" }} className='text-[1.5vh] md:text-base'>
+      <Head>
+        <title>Wallnut | Home</title>
+      </Head>
       <HomeCarousel />
 
       <div className='flex flex-wrap  md:flex-row absolute top-[125vw] md:top-[640px] z-10 w-full justify-center gap-[2vh] md:gap-[2vw] '>

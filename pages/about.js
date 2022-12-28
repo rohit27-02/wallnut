@@ -1,10 +1,14 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Banner from '../components/Banner'
+import Head from 'next/head'
 
 const about = () => {
   return (
     <div style={{ fontFamily: "'Montserrat', sans-serif" }}>
+       <Head>
+        <title>Wallnut | About</title>
+      </Head>
       <Banner title={"About Us"} />
 
 

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Banner from '../components/Banner'
 import { FaMap, FaPhoneVolume } from "react-icons/fa"
 import { HiMailOpen } from "react-icons/hi"
+import Head from 'next/head'
 const Contact = () => {
   const [name, setname] = useState("");
   const [email, setemail] = useState("");
@@ -36,6 +37,9 @@ const Contact = () => {
 
   return (
     <div>
+       <Head>
+        <title>Wallnut | Conatct</title>
+      </Head>
       <Banner title={"Contact Us"} />
 
       <section className="text-gray-600 body-font mt-[30vh] md:mt-[300px]">

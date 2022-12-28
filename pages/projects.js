@@ -1,9 +1,13 @@
 import React from 'react'
 import Banner from '../components/Banner'
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry"
+import Head from 'next/head'
 const projects = () => {
   return (
     <div style={{ fontFamily: "'Montserrat', sans-serif" }}>
+       <Head>
+        <title>Wallnut | Projects</title>
+      </Head>
       <Banner title={"Projects"}/>
       <div className='flex flex-col mt-[270px] md:flex-row py-[3.125vh] md:py-[54px] px-[10vw] items-center text-[#363f48]'>
           <p className='text-[4.85vh] md:text-[3.875rem] flex md:flex-col pr-0 md:pr-[50px] mr-[3.9vh] md:mr-[50px]  items-center md:items-start gap-[2vh] md:gap-0  md:border-r-[0.15vw] border-[#a58838] font-bold'><span className='text-[#a58838] text-[2.5vh] md:text-2xl italic'>LATEST</span>PROJECTS</p>

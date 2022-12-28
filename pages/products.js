@@ -1,10 +1,14 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Banner from '../components/Banner'
+import Head from 'next/head'
 
 const services = () => {
   return (
     <div style={{ fontFamily: "'Montserrat', sans-serif" }}>
+       <Head>
+        <title>Wallnut | Products</title>
+      </Head>
       <Banner title={"Products"} />
       <div className="flex justify-center text-sm px-8 items-center flex-col mb-[7vh] md:mb-[40px] mt-[34vh] md:mt-[350px]">
 

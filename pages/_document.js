@@ -23,6 +23,8 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          <link rel='icon' href='/favicon.png'/>
+          <title>Wallnut</title>
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
           <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Montserrat:wght@300;700&display=swap" rel="stylesheet" />
