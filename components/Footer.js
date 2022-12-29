@@ -28,7 +28,8 @@ Catering to an array of interior solutions like Furniture, Decorative Lights, Ar
         <div className='flex flex-col gap-[1vh] md:gap-[1vw]'>
           <li className='hover:text-[#a58838] cursor-pointer' onClick={()=>{Router.push("/")}}>Home</li>
           <li className='hover:text-[#a58838] cursor-pointer' onClick={()=>{Router.push("/about")}}>About us</li>
-          <li className='hover:text-[#a58838] cursor-pointer' onClick={()=>{Router.push("/services")}}>Services</li>
+          <li className='hover:text-[#a58838] cursor-pointer' onClick={()=>{Router.push("/products")}}>Products</li>
+          <li className='hover:text-[#a58838] cursor-pointer' onClick={()=>{Router.push("/projects")}}>Projects</li>
           <li className='hover:text-[#a58838] cursor-pointer' onClick={()=>{Router.push("/contact")}}>Contact us</li>
         </div>
       </div>
