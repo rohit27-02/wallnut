@@ -6,7 +6,6 @@ import { HashLoader } from 'react-spinners'
 function MyApp({ Component, pageProps }) {
   const [loaded, setloaded] = useState(false);
   useEffect(() => {
-   if(document.readyState== "complete")
    setloaded(true)
   }, [pageProps,Component]);
   return <>
