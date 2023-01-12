@@ -82,20 +82,14 @@ const about = () => {
         </div>
         <div className='flex flex-col md:flex-row items-center pb-10 md:pb-36 text-[#333333] justify-center gap-[3vh] md:gap-[6vw]'>
 
-          <div className='w-[50%] md:w-[262.51px] h-[30vh] md:h-[309.19px] shadow-lg bg-gray-400'>
-          
-            <img src='' alt='employee' />
+          <div style={{backgroundImage:`url("/manan mehta.jpeg")`,backgroundPosition:"top",backgroundSize:"300px"}} className='w-[50%] md:w-[262.51px] h-[30vh] md:h-[309.19px] shadow-lg bg-gray-400'>
             <div className='text-[1.57vh] z-30 md:text-xl font-bold flex justify-center p-[1.25vh] md:p-[15px] bg-white mt-[20vh] md:mt-[260px] w-4/5 mx-auto shadow-lg flex-col items-center'>Manan Mehta<span className='text-[1.25vh] md:text-sm font-normal'>Founder</span></div>
           </div>
-          <div className='w-[50%] md:w-[262.51px] h-[30vh] md:h-[309.19px] shadow-lg bg-gray-400'>
-          
-            <img src='' alt='employee' />
-            <div className='text-[1.57vh] z-30 md:text-xl font-bold flex justify-center p-[1.25vh] md:p-[15px] bg-white mt-[20vh] md:mt-[260px] w-4/5 mx-auto shadow-lg flex-col items-center'>Gaurav Jain<span className='text-[1.25vh] md:text-sm font-normal'>Founder</span></div>
+          <div style={{backgroundImage:`url("/ketan sheth.jpeg")`,backgroundPosition:"top",backgroundSize:"300px"}} className='w-[50%] md:w-[262.51px] h-[30vh] md:h-[309.19px] shadow-lg bg-gray-400'>
+            <div className='text-[1.57vh] z-30 md:text-xl font-bold flex justify-center p-[1.25vh] md:p-[15px] bg-white mt-[20vh] md:mt-[260px] w-4/5 mx-auto shadow-lg flex-col items-center'>Ketan Sheth<span className='text-[1.25vh] md:text-sm font-normal'>Founder</span></div>
           </div>
-          <div className='w-[50%] md:w-[262.51px] h-[30vh] md:h-[309.19px] shadow-lg bg-gray-400'>
-          
-            <img src='' alt='employee' />
-            <div className='text-[1/57vh] z-30 md:text-xl font-bold flex justify-center p-[1.25vh] md:p-[15px] bg-white mt-[20vh] md:mt-[260px] w-4/5 mx-auto shadow-lg flex-col items-center'>Yogesh Desai<span className='text-[1.25vh] md:text-sm font-normal'>Founder</span></div>
+          <div style={{backgroundImage:`url("/girish punjabi.jpeg")`,backgroundPosition:"top",backgroundSize:"300px"}} className='w-[50%] md:w-[262.51px] h-[30vh] md:h-[309.19px] shadow-lg bg-gray-400'>
+            <div className='text-[1/57vh] z-30 md:text-xl font-bold flex justify-center p-[1.25vh] md:p-[15px] bg-white mt-[20vh] md:mt-[260px] w-4/5 mx-auto shadow-lg flex-col items-center'>Girish Punjabi<span className='text-[1.25vh] md:text-sm font-normal'>Founder</span></div>
           </div>
         </div>
 
