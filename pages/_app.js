@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
   useEffect(() => {
    if(document.readyState== "complete")
    setloaded(true)
-  }, []);
+  }, [pageProps,Component]);
   return <>
   {loaded ? <div><Navbar/>
   <Component {...pageProps} />
